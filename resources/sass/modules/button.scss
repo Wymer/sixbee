@@ -1,0 +1,13 @@
+.button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+
+  &--green {
+    background: rgb(123, 220, 123);
+    color: white;
+  }
+}

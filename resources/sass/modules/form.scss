@@ -1,0 +1,28 @@
+.form {
+  padding: 25px;
+  background: #e7e7e7;
+  display: flex;
+  flex-flow: column nowrap;
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  form {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+
+    fieldset {
+      display: flex;
+      flex-flow: column nowrap;
+      margin-bottom: 15px;
+
+      label {
+        padding-bottom: 2px;
+      }
+    }
+  }
+}

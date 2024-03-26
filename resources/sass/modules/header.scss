@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  padding: 30px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid #e7e7e7;
+
+  &__logo {
+    margin: 0 auto;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  &__navigation {
+
+    li {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      a + a {
+        margin-left: 10px;
+        color: black;
+      }
+    }
+  }
+}

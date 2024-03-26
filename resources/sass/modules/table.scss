@@ -1,0 +1,72 @@
+table {
+  width: 100%;
+  
+  thead {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid #e7e7e7;
+
+      &.pending {
+        background-color: orange;
+      }
+
+      &.approved {
+        background-color: green;
+      }
+    }
+  }
+}
+
+.table {
+  &__actions {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  &__approve {
+    button {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      background: rgb(121, 228, 121);
+      border: 0;
+      color: black;
+      margin-right: 5px;
+      padding: 3px;
+      text-transform: capitalize;
+
+      svg {
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+
+  &__delete {
+    button {
+      background: rgb(216, 71, 71);
+      border: 0;
+      color: black;
+      margin-right: 5px;
+      padding: 3px;
+      text-transform: capitalize;
+    }
+  }
+
+  &__edit {
+    background: rgb(216, 160, 71);
+    border: 0;
+    color: black;
+    margin-right: 5px;
+    padding: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
